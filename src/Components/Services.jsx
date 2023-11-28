@@ -6,7 +6,7 @@ export default class Services extends Component {
     state = {
         services:[
               {
-                icon: <FaCocktail />,
+        icon: <FaCocktail />,
         title: 'Free cocktails',
         info: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
               },
@@ -35,7 +35,7 @@ export default class Services extends Component {
   <Title title='services'/>
   <div className='services-center'>
       {this.state.services.map((item, index)=>{
-        console.log(index);
+       
           return <article key={index} className='services'> 
            <span>{item.icon}</span>
            <h6>{item.title}</h6>

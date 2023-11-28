@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-
 import Room from "./pages/Room";
 import SingleRoom from "./pages/SingleRoom";
 import Error from "./pages/Error.jsx";
@@ -11,6 +10,7 @@ import Navber from "./Components/Navber.jsx";
 
 
 const App = () => {
+   
   return (
     <>
     <Navber/>
